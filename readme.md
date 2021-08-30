@@ -34,6 +34,12 @@ public class WeatherForecastResponse : HttpResponse<WeatherForecastList,GeneralE
     {
     }
 }
+
+public class GeneralError
+{
+    [JsonProperty("message")]
+    public string Message { get; }
+}
 ```
 
 Usage
