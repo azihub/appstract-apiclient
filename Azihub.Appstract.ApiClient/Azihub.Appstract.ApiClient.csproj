@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Mason Chase</Authors>
+    <Company>Azihub</Company>
+    <Product>API Client</Product>
+    <Description>API Client base tool to create REST or gRPC client for any API service.</Description>
+    <Copyright>Azihub</Copyright>
+    <PackageProjectUrl>https://www.github.com/azihub/api-client-netstandard</PackageProjectUrl>
+    <PackageIcon>Azihub.Appstract.ApiClient.png</PackageIcon>
+    <PackageIconUrl />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azihub.GlobalData.Base" Version="0.1.4" />
+    <PackageReference Include="Azihub.Utilities.Base" Version="0.1.11" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Azihub.Appstract.ApiClient.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
