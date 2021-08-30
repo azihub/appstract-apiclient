@@ -21,9 +21,22 @@ public class WeatherForecastRequest
     }
     public uint RequestCount { get; }
 }
+
+public class WeatherForecastResponse : HttpResponse<WeatherForecastList,GeneralError>
+{
+
+    public WeatherForecastResponse(WeatherForecastList dataSuccess, HttpRequestMessage request, HttpResponseMessage response) :
+        base(dataSuccess, request, response)
+    {
+    }
+    public WeatherForecastResponse(GeneralError dataFailed, HttpRequestMessage request, HttpResponseMessage response) :
+        base(dataFailed, request, response)
+    {
+    }
+}
 ```
 
-
+Usage
 ```C#
 [Fact]
 public void HttpWeatherClientTest()
