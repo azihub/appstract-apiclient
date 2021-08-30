@@ -10,6 +10,13 @@
     <PackageProjectUrl>https://www.github.com/azihub/api-client-netstandard</PackageProjectUrl>
     <PackageIcon>Azihub.Appstract.ApiClient.png</PackageIcon>
     <PackageIconUrl />
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/azihub/appstract-apiclient</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Rest API Client, gRPC API Client</PackageTags>
+    <PackageReleaseNotes>First release to implement http REST client</PackageReleaseNotes>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Version>0.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -20,6 +27,10 @@
 
   <ItemGroup>
     <None Include="Azihub.Appstract.ApiClient.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="LICENSE.md">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>

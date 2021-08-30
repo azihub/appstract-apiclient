@@ -23,7 +23,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Azihub.Appstract.ApiClient\Azihub.Appstract.ApiClient.csproj" />
-    <ProjectReference Include="..\BasicApiServer\BasicHttpApiServer.csproj" />
+    <ProjectReference Include="..\TestServers\BasicApiServer\BasicHttpApiServer.csproj" />
   </ItemGroup>
 
 </Project>

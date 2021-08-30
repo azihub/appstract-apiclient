@@ -7,11 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Azihub.Appstract.ApiClient"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azihub.Appstract.ApiClient.Tests", "Azihub.Appstract.ApiClient.Tests\Azihub.Appstract.ApiClient.Tests.csproj", "{941D63CA-7AEB-4667-8764-B8E454279B9E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicHttpApiServer", "BasicApiServer\BasicHttpApiServer.csproj", "{F800998D-8EC4-41BA-9575-F4334A9663A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicHttpApiServer", "TestServers\BasicApiServer\BasicHttpApiServer.csproj", "{F800998D-8EC4-41BA-9575-F4334A9663A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicGrpcApiServer", "BasicGrpcApiServer\BasicGrpcApiServer.csproj", "{63EE571B-60DC-432C-B729-3B22EAF2303B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicGrpcApiServer", "TestServers\BasicGrpcApiServer\BasicGrpcApiServer.csproj", "{63EE571B-60DC-432C-B729-3B22EAF2303B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicApiServices", "BasicApiServices\BasicApiServices.csproj", "{796400F0-65A1-4B09-B7B8-753479AA2C81}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicApiServices", "TestServers\BasicApiServices\BasicApiServices.csproj", "{796400F0-65A1-4B09-B7B8-753479AA2C81}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestApiServers", "TestApiServers", "{FAB70D2E-1BFF-41C1-A2F7-9E202D94EEF7}"
 EndProject
